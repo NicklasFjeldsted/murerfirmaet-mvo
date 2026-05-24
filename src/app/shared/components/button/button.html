@@ -1,0 +1,11 @@
+<button
+	mat-button
+	disableRipple="true"
+	[type]="type()"
+	[disabled]="disabled()"
+	[ngClass]="variant() === 'primary' ? 'btn-mvo-primary' : 'btn-mvo-secondary'"
+>
+	<div class="button-wrapper flex flex-row gap-1.5 justify-center items-center">
+		<ng-content></ng-content>
+	</div>
+</button>

@@ -1,0 +1,76 @@
+@use "../../../../variables" as vars;
+
+/* Reset Material overrides so our styles take full control */
+:host {
+	display: inline-flex;
+}
+
+%btn-base {
+	height: 2.75rem;
+	padding: 0 2rem;
+
+	text-transform: uppercase;
+	border-radius: 0.25rem;
+
+	font-weight: 600;
+	font-size: 15px;
+	letter-spacing: 0.02em;
+	line-height: normal;
+
+	transition: all 300ms ease;
+
+	cursor: pointer;
+
+	/* Remove Material's default styles */
+	min-width: unset;
+
+	&:hover {
+		transform: translateY(-1px);
+	}
+
+	&:active {
+		transform: translateY(0);
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+	&:disabled {
+		opacity: 0.5;
+		cursor: not-allowed;
+		transform: none;
+	}
+
+	& .button-wrapper {
+		color: vars.$color-white!important;
+	}
+}
+
+.btn-mvo-primary {
+	@extend %btn-base;
+
+	background-color: vars.$color-primary-gold;
+	border: 1px solid vars.$color-primary-gold;
+
+	box-shadow: 0 8px 30px rgba(212, 175, 55, 0.18);
+
+	&:hover {
+		background-color: vars.$color-gold-light;
+		box-shadow: 0 12px 40px rgba(212, 175, 55, 0.28);
+	}
+}
+
+.btn-mvo-secondary {
+	@extend %btn-base;
+
+	background-color: vars.$btn-secondary-bg;
+	border: 1px solid vars.$border-light;
+
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.18);
+
+	&:hover {
+		background-color: vars.$color-surface-elevated;
+		border-color: vars.$color-primary-gold;
+	}
+}
