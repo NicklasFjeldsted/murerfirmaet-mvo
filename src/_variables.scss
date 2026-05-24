@@ -1,1 +1,110 @@
-$system-color: #2e3947;
+/* =========================================
+   MVO Masonry Website Design System
+   Premium Dark + Gold Theme
+========================================= */
+
+/* ========= PRIMARY COLORS ========= */
+$color-primary-dark: #0D1117;
+$color-surface-dark: #151B23;
+$color-surface-elevated: #1E2530;
+
+$color-primary-gold: #D4AF37;
+$color-gold-light: #EAC76A;
+$color-gold-dark: #B8922A;
+
+/* ========= SECONDARY COLORS ========= */
+$color-sand: #F2E9D7;
+$color-light-gray: #F5F6F8;
+$color-white: #FFFFFF;
+
+/* ========= NEUTRAL SCALE ========= */
+$neutral-900: #0D1117;
+$neutral-800: #14181F;
+$neutral-700: #1F2329;
+$neutral-600: #2E343C;
+$neutral-500: #5B616B;
+$neutral-400: #868C96;
+$neutral-300: #B1B5BC;
+$neutral-200: #D7D9DD;
+$neutral-100: #ECEDEF;
+
+/* ========= SEMANTIC COLORS ========= */
+$success: #22C55E;
+$info: #3B82F6;
+$warning: #F59E0B;
+$error: #EF4444;
+
+/* ========= TEXT COLORS ========= */
+$text-primary: #FFFFFF;
+$text-secondary: #5B616B;
+$text-muted: #868C96;
+$text-gold: #D4AF37;
+
+$text-light: #0D1117;
+$text-light-secondary: #D7D9DD;
+
+/* ========= BORDERS ========= */
+$border-light: #E1E4E8;
+$border-dark: #2E343C;
+$border-gold: #D4AF37;
+
+/* ========= BUTTONS ========= */
+$btn-primary-bg: #D4AF37;
+$btn-primary-hover: #EAC76A;
+$btn-primary-text: #0D1117;
+
+$btn-secondary-bg: #1E2530;
+$btn-secondary-hover: #2E343C;
+$btn-secondary-text: #FFFFFF;
+
+/* ========= TYPOGRAPHY ========= */
+/* Font Family */
+$font-primary: 'Inter', 'SF Pro Display', sans-serif;
+
+/* Hero */
+$text-hero-size: 72px;
+$text-hero-weight: 800;
+$text-hero-line-height: 1.05;
+
+/* H1 */
+$text-h1-size: 56px;
+$text-h1-weight: 700;
+$text-h1-line-height: 1.1;
+
+/* H2 */
+$text-h2-size: 42px;
+$text-h2-weight: 700;
+$text-h2-line-height: 1.2;
+
+/* H3 */
+$text-h3-size: 30px;
+$text-h3-weight: 600;
+$text-h3-line-height: 1.3;
+
+/* H4 */
+$text-h4-size: 24px;
+$text-h4-weight: 600;
+$text-h4-line-height: 1.4;
+
+/* Body Large */
+$text-body-lg-size: 20px;
+$text-body-lg-weight: 400;
+$text-body-lg-line-height: 1.7;
+
+/* Body */
+$text-body-size: 18px;
+$text-body-weight: 400;
+$text-body-line-height: 1.7;
+
+/* Small */
+$text-small-size: 15px;
+$text-small-weight: 400;
+$text-small-line-height: 1.6;
+
+/* Button */
+$text-button-size: 16px;
+$text-button-weight: 600;
+$text-button-letter-spacing: 0.02em;
+
+/* Legacy system color - keeping for backwards compatibility */
+$system-color: #D4AF37; /* Updated to match new gold primary */
