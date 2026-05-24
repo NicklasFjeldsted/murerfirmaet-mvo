@@ -1,3 +1,23 @@
+.trust-indicator-bar-item {
+	display: flex;
+	gap: 1.5rem;
+	padding-block: 2rem;
+
+	&-content {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+		max-width: 15rem;
+	}
+}
+
+.line {
+	flex: 1;
+	width: 2px;
+	border-left: 3px dotted var(--border-gold);
+	min-height: 32px;
+}
+
 button  {
 	line-height: 1.75rem;
 }
@@ -20,30 +40,30 @@ button  {
 
 #header-section {
 	@extend %bg-base;
-	background-image: url("/bathrooms/bathroom3.png");
+	background-image: url(#{"/bathrooms/bathroom3.png"});
 }
 
 #bathrooms {
 	@extend %bg-base;
-	background-image: url("/bathrooms/bathroom3.png");
+	background-image: url(#{"/bathrooms/bathroom3.png"});
 }
 
 #repairs {
 	@extend %bg-base;
-	background-image: url("/repairs/image0.jpeg");
+	background-image: url(#{"/repairs/image0.jpeg"});
 }
 
 #tile-work {
 	@extend %bg-base;
-	background-image: url("/tile-work/image0.png");
+	background-image: url(#{"/tile-work/image0.png"});
 }
 
 #special-solutions {
 	@extend %bg-base;
-	background-image: url("/special-solutions/image0.png");
+	background-image: url(#{"/special-solutions/image0.png"});
 }
 
 #contact {
 	@extend %bg-base;
-	background-image: url("/tile-work/image4.png");
+	background-image: url(#{"/tile-work/image4.png"});
 }
